@@ -3,3 +3,206 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+/* inizio top header */
+
+.top-container {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-top {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container, .login-container {
+    width: 20%;
+    padding: 5px;
+}
+
+.menu {
+    width: 60%;
+    padding: 5px;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 5px;
+}
+
+.login-container {
+    text-align: right;
+}
+
+/* fine top header */
+
+
+/* inizio sezione hero */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    width: 50%;
+    margin: auto;
+}
+
+/* fine sezione hero */
+
+/* inizio sezione main */
+
+.main-section {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px 0;
+}
+
+.main-section:nth-child(even) {
+    background-color: lightgray;
+}
+
+.section-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.img-section {
+    width: 30%;
+}
+
+.text-section {
+    width: 70%;
+}
+
+/* fine sezione main */
+
+/* inizio footer */
+
+section.top-footer {
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid white;
+}
+
+.contacts {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.column.social {
+    width: 30%;
+}
+
+.column {
+    width: calc(70% / 4);
+}
+
+.bottom-footer {
+    padding-top: 20px;
+}
+
+.btm-footer-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+};
+
+/* fine footer */
+
+/* inizio codice debug */
+
+.header-top.debug {
+    background-color: goldenrod;
+}
+
+.top-container.debug {
+    background-color: lightblue;
+    height: 60px;    
+}
+
+.hero-container.debug {
+    background-color: darkblue;
+    height: 300px;
+}
+
+.debug {
+    border: 1px dotted black;
+}
+
+.hero.debug {
+    background-color: violet;
+    height: 80%;
+}
+
+.section-container.debug {
+    height: 250px;
+}
+
+.img-section.debug {
+    background-color: pink;
+}
+
+.text-section.debug {
+    background-color: blue;
+}
+
+.section-container.special.debug {
+    background-color: darkgreen;
+    height: 600px;
+}
+
+.top-footer.debug {
+    background-color: black;
+    height: 300px;
+}
+
+.column.social.debug {
+    background-color: palevioletred;
+}
+
+.column.debug {
+    background-color: cadetblue;
+    height: 250px;
+}
+
+.bottom-footer.debug {
+    background-color: black;
+    height: 100px;
+}
+
+.btm-footer-container.debug {
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.logo.debug, .footer-button.debug {
+    background-color: palevioletred;
+}
+
+
+/* fine codice debug */
